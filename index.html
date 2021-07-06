@@ -17,6 +17,19 @@
 
     </head>
     <body>
+        <!-- ================Navbar Section============= -->
+       <nav id="navbar" class="flex">
+            <div class="logo">
+                <h1><a href="#">Food <span class="color">Network</span></a></h1>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#recipe">Recipe</a>
+                <a href="#contact">Contact</a>
+            </div>
+       </nav>
+       <!-- ===============Navbar Section================ -->
+
         <!-- =============Top Banner Section============= -->
         <section class="top-banner">
             <div class="flex">
@@ -42,7 +55,7 @@
         <!-- =============Top Banner Section Ends============ -->
 
         <!-- =============About Us Section=========== -->
-        <section class="about-us">
+        <section id="about" class="about-us">
             <div class="flex">
                 <div class="half-width top-left">
                     <img id="about-img" src="./assets/images/Person Image.png" alt="">
@@ -50,7 +63,7 @@
                 <div class="half-width top-left">
                     <h2 id="about-heading">About Us</h2>
                     <p id="about-p">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus soluta debitis excepturi ipsa dolorem recusandae laboriosam eaque accusantium ex? Officiis consequuntur accusantium quisquam laudantium explicabo sed ipsum excepturi molestiae tempore.
+                        Food Network is a home meal delivery service that features nutrient rich ingredients, created by top of line chefs. You can place your order and receive it within 48 hours, delivered in coolers to keep it fresh!
                     </p>
                     <a href="#" class="button">Contact Us</a>
                 </div>
@@ -59,36 +72,92 @@
         <!-- ==============About Us Section Ends============== -->
 
         <!-- ==============Recipes Section============== -->
-        <section class="recipe">
+        <section id="recipe">
             <div class="recipe-heading">
                 <h2>Our Recipes</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ea sapiente voluptate minima a ducimus obcaecati consequatur modi!
+                    Some of our Grandma's special recipe straight to your table.
                 </p>
             </div>
             <div class="flex right-left-margin">
                 <div class="recipe-card margin">
                     <img src="./assets/images/Project Cover1.jpg" alt="recipe-image">
-                    <h3>Recipe Title</h3>
+                    <h3>Beef Steak</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam dolorum impedit error. Culpa, excepturi, tenetur, vel neque cupidita.
+                        Prepare the coals or a gas grill for direct heat.
+                        Cut outer edge of fat on steaks.
+                        Place the beef on the grill rack over medium heat.
+                        Cover the grill; cook 6 to 8 minutes.
                     </p>
                 </div>
                 <div class="recipe-card margin">
                     <img src="./assets/images/Project Cover5.png" alt="recipe-image">
-                    <h3>Recipe Title</h3>
+                    <h3>Green Salad</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam dolorum impedit error. Culpa, excepturi, tenetur, vel neque cupidita.
+                        Chop off your favorite green vegetables. Place them into the bowl.
+                        Whisk by hand with a large whisk. Add the olive oil little by little. We add it tablespoon by tablespoon and whisk in between until the oil fully incorporates. 
                     </p>
                 </div>
                 <div class="recipe-card margin">
                     <img src="./assets/images/Project Cover8.png" alt="recipe-image">
-                    <h3>Recipe Title</h3>
+                    <h3>Healthy Vegetable</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam dolorum impedit error. Culpa, excepturi, tenetur, vel neque cupidita.
+                        Chop off all your favorite vegetables and keep aside. Put the pan into the burner. Add olive oil and then chopped vegetable. Season with salt and pepper.
+                        Keep stirring for 5 minutes. Your vegetable is ready.
                     </p>
                 </div>
             </div>
         </section>
+        <!-- ===============Recipes Section Ends=============== -->
+
+        <!-- ================Social Section============== -->
+        <section class="social-section">
+            <div class="flex social">
+                <div class="social-item">
+                    <h2>5m</h2>
+                    <p>
+                        <small>Youtube Subscribers</small>
+                    </p>
+                </div>
+                <div class="social-item">
+                    <h2>2.5m</h2>
+                    <p>
+                        <small>Instagram Followers</small>
+                    </p>
+                </div>
+                <div class="social-item">
+                    <h2>500k</h2>
+                    <p>
+                        <small>Dribble Shot Likes</small>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- ===============Social Section Ends=============== -->
+
+        <!-- ================Contact Form================ -->
+        <section id="contact" class="contact-section">
+            <div class="contact">
+                <h2 class="color">Get In Touch</h2>
+                <form action="">
+                    <div class="input-item">
+                        <input type="text" name="fName" placeholder="First Name">
+                        <input type="text" name="lName" placeholder="Last Name">
+                        <input type="email" name="email" placeholder="E-Mail">
+                        <input type="text" name="msg" placeholder="Message">
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+        <!-- ================Contact Form Ends=============== -->
+
+        <!-- ================Footer================ -->
+        <section class="footer">
+            <h2><span class="color">FOOD</span> NETWORK</h2>
+            <p><small>Eat healthy to live healthy. Live healthy to live happy.</small></p>
+            <p><small>All rights reserved</small></p>
+        </section>
+        <!-- ===============Footer Ends=============== -->
     </body>
 </html>
