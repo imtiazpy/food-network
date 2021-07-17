@@ -1,143 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Food Network</title>
-
-        <!-- =========Google font CDN========= -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
-        <!-- =========External stylesheet========= -->
-        <link rel="stylesheet" href="./assets/css/style.css">
-
-    </head>
-    <body>
-        <!-- ================Navbar Section============= -->
-       <nav id="navbar" class="flex">
-            <div class="logo">
-                <h1><a href="#">Food <span class="color">Network</span></a></h1>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Network</title>
+    
+    <!-- ==============External stylesheet============== -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div id="navbar" class="flex container">
+            <div class="logo flex inline half-width">
+                <img src="./assets/images/food-logo.png" alt="logo">
+                <h2>Food <span class="color">Network</span></h2>
             </div>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#recipe">Recipe</a>
-                <a href="#contact">Contact</a>
-            </div>
-       </nav>
-       <!-- ===============Navbar Section================ -->
+            <nav class="nav-links half-width flex inline">
+                <a href="">About</a>
+                <a href="">Recipe</a>
+                <a href="">Contact</a>
+            </nav>
+        </div>
 
-        <!-- =============Top Banner Section============= -->
-        <section class="top-banner">
-            <div class="flex">
-                <div class="half-width top-left">
-                    <h1 id="top-heading">
-                        <span class="color">Skip</span>
-                        The Diet,
-                        <br>
-                        Just Eat Healthy
-                        <br>
-                        With Food Network
-                    </h1>
-                    <p id="top-p">
-                        Imagine you don't need a diet because we provide healthy and delicious food for you!
-                    </p>
-                    <a href="#" class="button">Order Now</a>
-                </div>
-                <div class="half-width">
-                    <img id="top-img" src="./assets/images/top-banner-girl.png" alt="">
-                </div>
+        <div id="banner" class="flex container">
+            <div class="banner-heading half-width">
+                <h1 class="banner-title">
+                    <span class="color">Skip</span> The Diet, <br>
+                    Just Eat Healthy <br>
+                    With Food Network
+                </h1>
+                <p class="banner-text">Imagine you don't need a diet because we provide healthy and delicious food for you!
+                </p>
+                <a class="btn" href="">Order Now</a>
             </div>
-        </section>
-        <!-- =============Top Banner Section Ends============ -->
+            <div class="banner-img half-width">
+                <img src="./assets/images/top-banner-girl.png" alt="">
+            </div>
+        </div>
+    </header>
 
-        <!-- =============About Us Section=========== -->
-        <section id="about" class="about-us">
-            <div class="flex">
-                <div class="half-width top-left">
-                    <img id="about-img" src="./assets/images/Person Image.png" alt="">
+    <main>
+        <section id="about-us" class="container">
+            <div class="wrapper flex">
+                <div class="about-img half-width">
+                    <img src="./assets/images/Person Image.png" alt="">
                 </div>
-                <div class="half-width top-left">
-                    <h2 id="about-heading">About Us</h2>
-                    <p id="about-p">
+                <div class="about-info half-width">
+                    <h2 class="section-title">About Us</h2>
+                    <p>
                         Food Network is a home meal delivery service that features nutrient rich ingredients, created by top of line chefs. You can place your order and receive it within 48 hours, delivered in coolers to keep it fresh!
                     </p>
-                    <a href="#contact" class="button">Contact Us</a>
+                    <a class="btn" href="">Contact Us</a>
                 </div>
             </div>
         </section>
-        <!-- ==============About Us Section Ends============== -->
 
-        <!-- ==============Recipes Section============== -->
-        <section id="recipe">
+        <section id="recipes" class="container">
             <div class="recipe-heading">
                 <h2>Our Recipes</h2>
-                <p>
-                    Some of our Grandma's special recipe straight to your table.
-                </p>
+                <p>Some of our Grandma's special recipe straight to your table.</p>
             </div>
-            <div class="flex right-left-margin">
-                <div class="recipe-card margin">
-                    <img src="./assets/images/Project Cover1.jpg" alt="recipe-image">
+            <div class="recipe-grid">
+                <div class="card">
+                    <img src="./assets/images/Project Cover1.jpg" alt="">
                     <h3>Beef Steak</h3>
                     <p>
-                        Prepare the coals or a gas grill for direct heat.
-                        Cut outer edge of fat on steaks.
-                        Place the beef on the grill rack over medium heat.
-                        Cover the grill; cook 6 to 8 minutes.
+                        Prepare the coals or a gas grill for direct heat. Cut outer edge of fat on steaks. Place the beef on the grill rack over medium heat. Cover the grill; cook 6 to 8 minutes.
                     </p>
                 </div>
-                <div class="recipe-card margin">
-                    <img src="./assets/images/Project Cover5.png" alt="recipe-image">
-                    <h3>Green Salad</h3>
+                <div class="card">
+                    <img src="./assets/images/Project Cover5.png" alt="">
+                    <h3>Beef Steak</h3>
                     <p>
-                        Chop off your favorite green vegetables. Place them into the bowl.
-                        Whisk by hand with a large whisk. Add the olive oil little by little. We add it tablespoon by tablespoon and whisk in between until the oil fully incorporates. 
+                        Prepare the coals or a gas grill for direct heat. Cut outer edge of fat on steaks. Place the beef on the grill rack over medium heat. Cover the grill; cook 6 to 8 minutes.
                     </p>
                 </div>
-                <div class="recipe-card margin">
-                    <img src="./assets/images/Project Cover8.png" alt="recipe-image">
-                    <h3>Healthy Vegetable</h3>
+                <div class="card">
+                    <img src="./assets/images/Project Cover8.png" alt="">
+                    <h3>Beef Steak</h3>
                     <p>
-                        Chop off all your favorite vegetables and keep aside. Put the pan into the burner. Add olive oil and then chopped vegetable. Season with salt and pepper.
-                        Keep stirring for 5 minutes. Your vegetable is ready.
+                        Prepare the coals or a gas grill for direct heat. Cut outer edge of fat on steaks. Place the beef on the grill rack over medium heat. Cover the grill; cook 6 to 8 minutes.
                     </p>
                 </div>
             </div>
         </section>
-        <!-- ===============Recipes Section Ends=============== -->
 
-        <!-- ================Social Section============== -->
-        <section class="social-section">
-            <div class="flex social">
-                <div class="social-item">
-                    <h2>5m</h2>
-                    <p>
-                        <small>Youtube Subscribers</small>
-                    </p>
+        <section id="followers" class="container">
+            <div class="followers-grid">
+                <div class="item">
+                    <h2>5M</h2>
+                    <p>Youtube Subscriber</p>
                 </div>
-                <div class="social-item">
-                    <h2>2.5m</h2>
-                    <p>
-                        <small>Instagram Followers</small>
-                    </p>
+                <div class="item">
+                    <h2>2.5M</h2>
+                    <p>Instagram Followers</p>
                 </div>
-                <div class="social-item">
-                    <h2>500k</h2>
-                    <p>
-                        <small>Dribble Shot Likes</small>
-                    </p>
+                <div class="item">
+                    <h2>500K</h2>
+                    <p>Dribble Shot Likes</p>
                 </div>
             </div>
         </section>
-        <!-- ===============Social Section Ends=============== -->
 
-        <!-- ================Contact Form================ -->
-        <section id="contact" class="contact-section">
-            <div class="contact">
+        <section id="contact" class="container">
+            <div class="contact-form">
                 <h2 class="color">Get In Touch</h2>
                 <form action="">
                     <div class="input-item">
@@ -146,18 +113,20 @@
                         <input type="email" name="email" placeholder="E-Mail">
                         <input type="text" name="msg" placeholder="Message">
                     </div>
-                    <button type="submit">Send</button>
+                    <button class="btn" type="submit">Send</button>
                 </form>
             </div>
         </section>
-        <!-- ================Contact Form Ends=============== -->
-
-        <!-- ================Footer================ -->
+    </main>
+    <footer>
         <section class="footer">
             <h2><span class="color">FOOD</span> NETWORK</h2>
-            <p><small>Eat healthy to live healthy. Live healthy to live happy.</small></p>
-            <p><small>All rights reserved</small></p>
+            <small>
+                <p>Eat healthy to live healthy</p>
+                <p>Live healthy to live happy.</p>
+            </small>
+            <p><small>All rights &copy; reserved</small></p>
         </section>
-        <!-- ===============Footer Ends=============== -->
-    </body>
+    </footer>
+</body>
 </html>
